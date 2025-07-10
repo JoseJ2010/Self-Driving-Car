@@ -1,6 +1,8 @@
 <body>
+  <Header><style>
 <H1>Self-Driving Car</H1>
-<p>built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. </p>
+<h2> I built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. </H2>
+  </Header>
 
   | Engineer | School | Area of Interest | Grade |
 |:--:|:--:|:--:|:--:|
