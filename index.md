@@ -1,6 +1,6 @@
 <body>
 <H1>Self-Driving Car</H1>
-<p>built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. Completing this project sharpened my problem‐solving and programming skills and inspired me to explore future upgrades like AI‐powered vision and adaptive path planning.</p>
+<p>built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. </p>
 
   | Engineer | School | Area of Interest | Grade |
 |:--:|:--:|:--:|:--:|
