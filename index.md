@@ -1,13 +1,8 @@
-Self-Driving Car
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+<body>
+<H1>Self-Driving Car</H1>
+<p>built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. Completing this project sharpened my problem‐solving and programming skills and inspired me to explore future upgrades like AI‐powered vision and adaptive path planning.</p>
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
-| Engineer | School | Area of Interest | Grade |
+  | Engineer | School | Area of Interest | Grade |
 |:--:|:--:|:--:|:--:|
 | Jose J | KIPP NYC CPHS | Civil and Technical Engineering | Incoming sophomore
 
@@ -183,3 +178,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+</body>
