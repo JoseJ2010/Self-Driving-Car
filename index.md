@@ -1,5 +1,5 @@
 <body>
-  <Header><style>
+  <Header>
 <H1>Self-Driving Car</H1>
 <h2> I built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. </H2>
   </Header>
