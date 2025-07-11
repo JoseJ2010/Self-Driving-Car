@@ -55,8 +55,10 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
+<div class="scroll-box">
 ```c++
+  <p>
+    
 const int A_1B = 5;
 const int A_1A = 6;
 const int B_1B = 9;
@@ -161,7 +163,10 @@ void loop() {
 }
 
 }
+  
 ```
+</p>
+</div>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
