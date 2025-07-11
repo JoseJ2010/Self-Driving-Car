@@ -5,9 +5,9 @@
 <h2> I built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. </H2>
   </Header>
 
-| Engineer | School | Area of Interest | Grade |
+|Engineer|School|Area of Interest|Grade|
 |:--:|:--:|:--:|:--:|
-| Jose J | KIPP NYC CPHS | Civil and Technical Engineering | Incoming sophomore |
+|Jose J|KIPP NYC CPHS|Civil and Technical Engineering|Incoming sophomore|
 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
