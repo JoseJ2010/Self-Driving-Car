@@ -1,8 +1,7 @@
-# Project Name Here
+Self-Driving Car
 
-I am doing the Self-Driving Car which has had
-
-
+I am doing the Self-Driving Car which has a Line-Following Sensor, a obstacle avoidance sensor , and a ultrasonic sensor which is getting replaced because it wasn't reading 
+the distance. This has brought many step backs and I want to make
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Jose J | KIPP NYC CPHS | Technical & Civil Engineering | Incoming Sophomore
@@ -39,15 +38,11 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+<iframe width="560" height="315" src="(https://www.youtube.com/watch?v=_Zn2GJUbHg0&pp=ygUQVG9ueSBKIG1pbGVzdG9uZQ%3D%3D)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+I was able to add the Line Following Module, Obstacle Avoidance Module. and able to make the car move with and without code. Some challenges I faced were the ultrasonic Module which had to get replaced. I will try to finish coding and add modifications.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -56,16 +51,109 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+const int A_1B = 5;
+const int A_1A = 6;
+const int B_1B = 9;
+const int B_1A = 10;
+
+const int echoPin = 4;
+const int trigPin = 3;
+
+const int rightIR = 7;
+const int leftIR = 8;
+
+float readSensorData() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  float distance = pulseIn(echoPin, HIGH) / 58.00; //Equivalent to (340m/s*1us)/2
+  return distance;
+}
+
+
+void moveForward(int speed) {
+  analogWrite(A_1B, 0);
+  analogWrite(A_1A, speed);
+  analogWrite(B_1B, speed);
+  analogWrite(B_1A, 0);
+}
+
+void moveBackward(int speed) {
+  analogWrite(A_1B, speed);
+  analogWrite(A_1A, 0);
+  analogWrite(B_1B, 0);
+  analogWrite(B_1A, speed);
+}
+
+
+void backLeft(int speed) {
+  analogWrite(A_1B, speed);
+  analogWrite(A_1A, 0);
+  analogWrite(B_1B, 0);
+  analogWrite(B_1A, 0);
+}
+
+void backRight(int speed) {
+  analogWrite(A_1B, 0);
+  analogWrite(A_1A, 0);
+  analogWrite(B_1B, 0);
+  analogWrite(B_1A, speed);
+}
+
+void stopMove() {
+  analogWrite(A_1B, 0);
+  analogWrite(A_1A, 0);
+  analogWrite(B_1B, 0);
+  analogWrite(B_1A, 0);
+}
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+
+  //motor
+  pinMode(A_1B, OUTPUT);
+  pinMode(A_1A, OUTPUT);
+  pinMode(B_1B, OUTPUT);
+  pinMode(B_1A, OUTPUT);
+
+  //ultrasonic
+  pinMode(echoPin, INPUT);
+  pinMode(trigPin, OUTPUT);
+
+  //IR obstacle
+  pinMode(leftIR, INPUT);
+  pinMode(rightIR, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+  int left = digitalRead(leftIR);  // 0: Obstructed   1: Empty
+  int right = digitalRead(rightIR);
+
+  if (!left && right) {
+    backLeft(150);
+  } else if (left && !right) {
+    backRight(150);
+  } else if (!left && !right) {
+    moveBackward(150);
+  } else {
+    float distance = readSensorData();
+    Serial.println(distance);
+    if (distance > 50) { // Safe
+      moveForward(200);
+    } else if (distance < 10 && distance > 2) { // Attention
+      moveBackward(200);
+      delay(1000);
+      backLeft(150);
+      delay(500);
+    } else {
+      moveForward(150);
+    }
+  }
 }
+
 ```
 
 # Bill of Materials
@@ -74,9 +162,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| SunFounder 3 in 1 Starter Kit for Arduino Uno R3 | Start the project | $Price | <a href="https://www.sunfounder.com/products/sunfounder-3-in-1-iot-smart-car-learning-ultimate-starter-kit"> Link </a> |
+| Arduino UNO | Store and Uploads Code | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
