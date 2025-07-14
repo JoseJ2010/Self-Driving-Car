@@ -2,6 +2,7 @@ Self-Driving Car
 
 I am doing the Self-Driving Car which has a Line-Following Sensor, a obstacle avoidance sensor , and a ultrasonic sensor which is getting replaced because it wasn't reading 
 the distance. This has brought many step backs and I want to make
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Jose J | KIPP NYC CPHS | Technical & Civil Engineering | Incoming Sophomore
