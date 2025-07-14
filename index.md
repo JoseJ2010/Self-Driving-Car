@@ -1,14 +1,15 @@
-<body>
-  <Header>
-<H1>Self-Driving Car</H1>
-    
-<h2> I built a self‐driving Arduino car that navigates around obstacles in real time using ultrasonic sensors and servo motors. Calibrating the obstacle‐avoidance algorithm proved the biggest challenge—it took iterative debugging and creative hardware tweaks to achieve smooth, reliable turns. </H2>
-  </Header>
+# Project Name Here
+Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
-|Engineer|School|Area of Interest|Grade|
+You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+```HTML 
+<!--- This is an HTML comment in Markdown -->
+<!--- Anything between these symbols will not render on the published site -->
+```
+
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-|Jose J|KIPP NYC CPHS|Civil and Technical Engineering|Incoming sophomore|
-
+| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -18,7 +19,7 @@
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe> width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> Hello</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -42,130 +43,34 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share](https://www.youtube.com/watch?v=_Zn2GJUbHg0)" allowfullscreen></iframe>
-
-
-  I have offically assembled the car by adding the motors, the line tracking module, and the Obstacle Avoidance Module. I am having trouble with the Ultra-Sonic module and had to get it replaced. My plan to complete my project is to create the remote control and add the ultrasonic module
+For your first milestone, describe what your project is and how you plan to build it. You can include:
+- An explanation about the different components of your project and how they will all integrate together
+- Technical progress you've made so far
+- Challenges you're facing and solving in your future milestones
+- What your plan is to complete your project
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-<div class="scroll-box">
+Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-  ```c++
-
-    
-const int A_1B = 5;
-const int A_1A = 6;
-const int B_1B = 9;
-const int B_1A = 10;
-
-const int echoPin = 4;
-const int trigPin = 3;
-
-const int rightIR = 7;
-const int leftIR = 8;
-
-float readSensorData() {
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-  float distance = pulseIn(echoPin, HIGH) / 58.00; //Equivalent to (340m/s*1us)/2
-  return distance;
-}
-
-
-void moveForward(int speed) {
-  analogWrite(A_1B, 0);
-  analogWrite(A_1A, speed);
-  analogWrite(B_1B, speed);
-  analogWrite(B_1A, 0);
-}
-
-void moveBackward(int speed) {
-  analogWrite(A_1B, speed);
-  analogWrite(A_1A, 0);
-  analogWrite(B_1B, 0);
-  analogWrite(B_1A, speed);
-}
-
-
-void backLeft(int speed) {
-  analogWrite(A_1B, speed);
-  analogWrite(A_1A, 0);
-  analogWrite(B_1B, 0);
-  analogWrite(B_1A, 0);
-}
-
-void backRight(int speed) {
-  analogWrite(A_1B, 0);
-  analogWrite(A_1A, 0);
-  analogWrite(B_1B, 0);
-  analogWrite(B_1A, speed);
-}
-
-void stopMove() {
-  analogWrite(A_1B, 0);
-  analogWrite(A_1A, 0);
-  analogWrite(B_1B, 0);
-  analogWrite(B_1A, 0);
-}
-
+```c++
 void setup() {
+  // put your setup code here, to run once:
   Serial.begin(9600);
-
-  //motor
-  pinMode(A_1B, OUTPUT);
-  pinMode(A_1A, OUTPUT);
-  pinMode(B_1B, OUTPUT);
-  pinMode(B_1A, OUTPUT);
-
-  //ultrasonic
-  pinMode(echoPin, INPUT);
-  pinMode(trigPin, OUTPUT);
-
-  //IR obstacle
-  pinMode(leftIR, INPUT);
-  pinMode(rightIR, INPUT);
+  Serial.println("Hello World!");
 }
 
 void loop() {
-
-  int left = digitalRead(leftIR);  // 0: Obstructed   1: Empty
-  int right = digitalRead(rightIR);
-
-  if (!left && right) {
-    backLeft(150);
-  } else if (left && !right) {
-    backRight(150);
-  } else if (!left && !right) {
-    moveBackward(150);
-  } else {
-    float distance = readSensorData();
-    Serial.println(distance);
-    if (distance > 50) { // Safe
-      moveForward(200);
-    } else if (distance < 10 && distance > 2) { // Attention
-      moveBackward(200);
-      delay(1000);
-      backLeft(150);
-      delay(500);
-    } else {
-      moveForward(150);
-    }
-  }
-}
+  // put your main code here, to run repeatedly:
 
 }
-  
 ```
-
-</div>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -173,7 +78,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| SunFounder 3 in 1 Starter Kit for Arduino Uno R3 | Start the project| $69.99 | <a href="https://www.sunfounder.com/products/sunfounder-3-in-1-iot-smart-car-learning-ultimate-starter-kit"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
@@ -184,4 +89,3 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
-</body>
