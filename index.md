@@ -28,14 +28,20 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 <iframe width="791" height="445" src="https://www.youtube.com/embed/uZ8DTV_WV1Y" title="Tony J. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- 
-I was able to add a joystick and make the UltraSonic work. Something that suprises me is that the project has a lot of modifications I can add.I will add a speaker and try to use a wireless controller.I could make the remote control work even after debugging so I will work on it later.
+
+ I managed to successfully add a joystick to the project and got the ultrasonic sensor working as well, which was a nice achievement. What really surprised me, though, is how many modifications I can still add to the project—there’s a lot of potential for customization.
+
+Next, I plan to integrate a speaker for sound effects and experiment with using a wireless controller for more flexibility. I did run into some issues getting the remote control to work, even after debugging, but I’m not giving up on it and will tackle that part again later. It’s exciting to see the progress and all the possibilities for improvement!
+
 
 # First Milestone
 
 <iframe width="791" height="445" src="https://www.youtube.com/embed/_Zn2GJUbHg0" title="Tony J. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I was able to add the Line Following Module, Obstacle Avoidance Module. and able to make the car move with and without code. Some challenges I faced were the ultrasonic Module which had to get replaced. I will try to finish coding and add modifications.
+I successfully added the Line Following Module and the Obstacle Avoidance Module to my project, and I was able to make the car move both with and without code. The integration of these components went relatively smoothly, and it was satisfying to see the car react to different environments and follow lines or avoid obstacles as intended.
+
+However, I did encounter some challenges, particularly with the ultrasonic module, which needed to be replaced due to some issues. Despite this setback, I’m optimistic about finishing the coding portion and plan to incorporate further modifications to enhance the performance and functionality of the car.
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
