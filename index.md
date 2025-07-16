@@ -166,14 +166,6 @@ void loop() {
     }
   }
 }
-<div style="height: 50px; overflow-y: hidden; overflow-x: auto; white-space: nowrap; border: 1px solid #ccc; padding: 10px;">
-  
-
-### Using the `<details>` Tag with `white-space`
-
-To make your text within the scrollable area remain on a single line (no wrapping) and become horizontally scrollable, you would combine `overflow-x: scroll;` with `white-space: nowrap;`.
-
-**Example:**
 
 ```
 </div>
