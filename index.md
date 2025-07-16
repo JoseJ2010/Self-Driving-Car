@@ -36,6 +36,7 @@ I was able to add a joystick and make the UltraSonic work. Something that supris
 # First Milestone
 
 <iframe width="791" height="445" src="https://www.youtube.com/embed/_Zn2GJUbHg0" title="Tony J. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 I was able to add the Line Following Module, Obstacle Avoidance Module. and able to make the car move with and without code. Some challenges I faced were the ultrasonic Module which had to get replaced. I will try to finish coding and add modifications.
 
 # Schematics 
