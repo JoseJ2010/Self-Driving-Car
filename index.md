@@ -157,10 +157,18 @@ void loop() {
     }
   }
 }
+<div style="height: 50px; overflow-y: hidden; overflow-x: auto; white-space: nowrap; border: 1px solid #ccc; padding: 10px;">
+  
+
+### Using the `<details>` Tag with `white-space`
+
+To make your text within the scrollable area remain on a single line (no wrapping) and become horizontally scrollable, you would combine `overflow-x: scroll;` with `white-space: nowrap;`.
+
+**Example:**
 
 ```
-
 </div>
+
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
