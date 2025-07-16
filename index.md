@@ -1,7 +1,12 @@
-Self-Driving Car
+<H1>Self-Driving Car</H1>
 
-I am doing the Self-Driving Car which has a Line-Following Sensor, a obstacle avoidance sensor , and a ultrasonic sensor which is getting replaced because it wasn't reading 
-the distance. This has brought many step backs and I want to make
+<H3>An Arduino UNO self-driving car is a simple, small robot that uses an Arduino UNO board as its control center to navigate autonomously. It relies on sensors like ultrasonic distance sensors, infrared sensors, or sometimes cameras to detect objects around it and avoid collisions. These sensors continuously feed data to the Arduino UNO, which processes the information and determines the car’s movements.
+
+The Arduino UNO microcontroller interprets the sensor data and sends commands to the motors to control the car's speed and direction. For example, if the car detects an obstacle in front of it, the Arduino can trigger the car to stop, reverse, or turn to avoid a collision. This allows the car to drive on its own without human input, making it ideal for learning about robotics, automation, and basic principles of autonomous navigation.
+
+In essence, the Arduino UNO self-driving car combines sensors, programming, and basic mechanical systems to allow for autonomous movement, offering a fun and educational way to understand the basics of robotics and self-driving technology.</H3>
+
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -171,8 +176,6 @@ void loop() {
 </div>
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
