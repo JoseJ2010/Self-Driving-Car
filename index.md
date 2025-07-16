@@ -50,7 +50,16 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 
-<div style="height: 150px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
+<div style="
+  height: 200px;
+  overflow-y: auto; /* For vertical scrolling if content exceeds height */
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f6f8fa; /* Light background for code/preformatted look */
+  font-family: monospace; /* Optional: Use a monospaced font like code */
+  white-space: pre-wrap; /* THIS IS THE KEY PROPERTY */
+">
+
 
 ```c++
 
