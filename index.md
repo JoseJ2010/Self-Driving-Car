@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="//Youtube Link//" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="791" height="445" src="https://www.youtube.com/embed/uZ8DTV_WV1Y" title="Tony J. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
 I was able to add a joystick and make the UltraSonic work. Something that suprises me is that the project has a lot of modifications I can add.I will add a speaker and try to use a wireless controller.I could make the remote control work even after debugging so I will work on it later.
 
