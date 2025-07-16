@@ -68,7 +68,6 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 ```c++
 
- div>
 const int A_1B = 5;
 const int A_1A = 6;
 const int B_1B = 9;
