@@ -6,10 +6,7 @@ The Arduino UNO microcontroller interprets the sensor data and sends commands to
 
 In essence, the Arduino UNO self-driving car combines sensors, programming, and basic mechanical systems to allow for autonomous movement, offering a fun and educational way to understand the basics of robotics and self-driving technology.</H3>
 
-<audio controls>
-  <source src="511b7bf45cbad13497ea3100b363f2faKenny_G_-_Forever_In_Love_Offiical_Video (1)" type="audio/mpeg">
-  c
-</audio>
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
