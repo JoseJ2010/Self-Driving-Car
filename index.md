@@ -21,17 +21,10 @@ In essence, the Arduino UNO self-driving car combines sensors, programming, and 
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+<iframe width="399" height="225" src="https://www.youtube.com/embed/o88Zk7bv2zw" title="Tony J. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>
-  I was able to add mecanum wheels to my self driving car because the are omnidirectional (being able to move or operate in all directions, without needing to change the orientation of the object itself.) I wasn't able to make the bluetooth module to work so had to move on with the mencanum wheel and currenlty the IR sensor are not working. I learned how a breadboard and ultra sonic 
+  I was able to add mecanum wheels to my self driving car because the are omnidirectional (being able to move or operate in all directions, without needing to change the orientation of the object itself.) I wasn't able to make the bluetooth module to work so had to move on with the mencanum wheel and currenlty the IR sensor are not working. I learned how a breadboard and ultra sonic worked but I wasn't able to make I hope to learn how to expand my knowledge on schematics .
 
 </p>
 
@@ -55,7 +48,7 @@ However, I did encounter some challenges, particularly with the ultrasonic modul
 
 
 # Schematics 
-![Schematics]([https://imgur.com/a/Rz9gzdM])
+![Mecanum Wheel Robot Setup](https://i.imgur.com/B4IwBZu.png)
 # Code
 
 <div style="
