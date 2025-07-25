@@ -15,7 +15,6 @@ In essence, the Arduino UNO self-driving car combines sensors, programming, and 
 |:--:|:--:|:--:|:--:|
 | Jose J | KIPP NYC CPHS | Technical & Civil Engineering | Incoming Sophomore |
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 ![Final project](https://github.com/user-attachments/assets/bda05022-1c0b-443d-8bed-40a2b52d993d)
   
 # Final Milestone
@@ -170,12 +169,12 @@ void loop() {
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | SunFounder 3 in 1 Starter Kit for Arduino Uno R3 | Start the project | $69.99 | <a href="https://www.sunfounder.com/products/sunfounder-3-in-1-iot-smart-car-learning-ultimate-starter-kit"> Link </a> |
-| Arduino UNO | Store and Uploads Code | $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino UNO | Store and Uploads Code | $27.60 | <a href=" "> Link </a> |
+| Ultrasonic Sensors | checks distance via sound |  $9.99  | <a href="https://www.google.com/url?q=https://www.amazon.com/dp/B0C166NX3Z?psc%3D1%26smid%3DA1YZW40LYQY3L1%26ref_%3Dchk_typ_imgToDp&sa=D&source=editors&ust=1753470315068377&usg=AOvVaw13Oz2mK3QNG1NenPwKERam"> Link </a> |
+| Mecanum wheel kit | For omnidirectional wheels | $27.59 | <a href=" "> Link </a> |
+|  |  |  | <a href=" "> Link </a> |
+|  |  |  | <a href=" "> Link </a> |
+|  |  |  | <a href=" "> Link </a> |
+|  |  |  | <a href=" "> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
