@@ -55,7 +55,8 @@ However, I did encounter some challenges, particularly with the ultrasonic modul
 
 
 # Schematics 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "GitHub Octocat")
+![Self Driving Car Schematics](<img width="1536" height="1024" alt="make image using fri" src="https://github.com/user-attachments/assets/d9326029-a05a-4a56-b68b-706e2ee56a06" />
+)
 # Code
 
 <div style="
