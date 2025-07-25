@@ -31,7 +31,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 <p>
-  I was able to add mecanum wheels to my self driving car because the are omnidirectional (being able to move or operate in all directions, without needing to change the orientation of the object itself.)I wasn't able to make the bluetooth module to work so had to move on with the mencanum wheel and currenlty the IR sensor are not working
+  I was able to add mecanum wheels to my self driving car because the are omnidirectional (being able to move or operate in all directions, without needing to change the orientation of the object itself.) I wasn't able to make the bluetooth module to work so had to move on with the mencanum wheel and currenlty the IR sensor are not working. I learned how a breadboard and ultra sonic 
 
 </p>
 
@@ -55,8 +55,7 @@ However, I did encounter some challenges, particularly with the ultrasonic modul
 
 
 # Schematics 
-![Self Driving Car Schematics](<img width="1536" height="1024" alt="make image using fri" src="https://github.com/user-attachments/assets/d9326029-a05a-4a56-b68b-706e2ee56a06" />
-)
+![Schematics]([https://imgur.com/a/Rz9gzdM])
 # Code
 
 <div style="
