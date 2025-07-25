@@ -16,8 +16,7 @@ In essence, the Arduino UNO self-driving car combines sensors, programming, and 
 | Jose J | KIPP NYC CPHS | Technical & Civil Engineering | Incoming Sophomore |
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Final project](https://github.com/user-attachments/assets/bda05022-1c0b-443d-8bed-40a2b52d993d)
   
 # Final Milestone
 
