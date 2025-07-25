@@ -27,7 +27,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
+<p>
++ I was able to add mecanum wheels to my self driving car because the are omnidirectional(being able to move or operate in all directions, without needing to change the orientation of the object itself. 
 
+) </p>
 
 
 # Second Milestone
