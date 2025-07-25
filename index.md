@@ -28,9 +28,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 <p>
-+ I was able to add mecanum wheels to my self driving car because the are omnidirectional(being able to move or operate in all directions, without needing to change the orientation of the object itself. 
+  I was able to add mecanum wheels to my self driving car because the are omnidirectional (being able to move or operate in all directions, without needing to change the orientation of the object itself.)I wasn't able to make the bluetooth module to work so had to move on with the mencanum wheel and currenlty the IR sensor are not working
 
-) </p>
+</p>
 
 
 # Second Milestone
