@@ -65,8 +65,6 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
   font-family: monospace; /* Optional: Use a monospaced font like code */
   white-space: pre-wrap; /* THIS IS THE KEY PROPERTY */
 ">
-  
-```c++
 
 const int A_1B = 5;
 const int A_1A = 6;
@@ -171,7 +169,6 @@ void loop() {
   }
 }
 
-```
 </div>
 
 # Bill of Materials
